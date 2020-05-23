@@ -6,7 +6,7 @@ class figure:
     self.b=b
     self.area=area
     self.c=c
-  def area(self):
+  def get_area(self):
     self.a=self.Decimal(self.a)
     self.b=self.Decimal(self.b)
     self.area=self.a*self.b
